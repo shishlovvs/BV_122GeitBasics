@@ -18,8 +18,8 @@ using std::endl;
 void main()
 {
 	setlocale(LC_ALL, "ru");
-#ifdef FIRST_VARIATION
 	setlocale(LC_ALL, "C");
+#ifdef FIRST_VARIATION
 	int n;
 	cout << "¬ведите размер фигуры: "; cin >> n;
 	//for (int i = 0; i < 256; i++) {

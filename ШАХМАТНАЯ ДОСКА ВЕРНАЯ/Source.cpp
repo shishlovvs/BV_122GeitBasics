@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -21,7 +21,7 @@ void main()
 	setlocale(LC_ALL, "C");
 #ifdef FIRST_VARIATION
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	//for (int i = 0; i < 256; i++) {
 	//	cout << i << "\t" << char(i) << endl;
 	//}
@@ -50,8 +50,22 @@ void main()
 
 
 	int a;
-	cout << "Ââåäèòå êîëè÷åñòâî èòåðàöèé: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¹: "; cin >> a;
 	
+	for (int i = 0; i < a; i++)
+	{
+		for (int j = 0; j < a; j++)
+		{
+			if ((i + j) % 2 == 0)
+				cout << for (int i = 0; i < a; i++)
+			{
+				for (int j = 0; j < a; j++) { cout << "* "; }
+			else cout << " ";
+			}
+		}cout << endl;
+	}cout << endl;
+
+
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < a; j++)
